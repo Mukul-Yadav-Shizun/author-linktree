@@ -52,4 +52,13 @@ body {
   .links a:hover {
     background: #028a95;
   }
+
+@media (max-width: 768px) {
+  .your-class {
+    flex-direction: column;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
   
